@@ -1,0 +1,40 @@
+.todos label{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.todo {
+    margin-bottom: 1rem;
+}
+
+.todo.completed span {
+    text-decoration: line-through;
+}
+
+.todo label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1rem;
+    background: #f3f3f3;
+}
+
+.todo i {
+    z-index: 2;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.list-text {
+    font-weight: bold;
+    font-size: 24px;
+    color: #7b1fa2;
+}
